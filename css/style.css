@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --c1:white;
+    --c2:black;
+    --c3:red;
+    --c4:#2e2e2e;
+}
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+#imglogo{
+    width: 140px;
+}
+
+header{
+    background-color: var(--c2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+    color: var(--c1);
+}
+
+ a{
+    color: var(--c1);
+}
+
+
+#banner{
+    width: 100%;
+    height: 50%;
+}
+
+.imgbanner{
+    text-align: center;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+h1{
+    padding: 150px;
+    font-family: "Devonshire", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: var(--c3);
+    height: 50px;
+}
+
+#bannerbutton{
+    background-color: var(--c3);
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    color: var(--c1);
+    box-shadow: 2px 2px 7px black;
+    border: 10px;
+
+}
+
+#bannerbutton:houve{
+    transition: 3.s;
+ background-color: var(--c1);
+}
+
+.imgcard{
+    width: 260px;
+    border-radius: 10px;
+}
+
+main{
+    padding: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.card{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#logofooter{
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+     flex-wrap: wrap; 
+    background-color: var(--c4);
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+#fooicons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+
+#fooicons2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+}
